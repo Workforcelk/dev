@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2016, 12:13:59 PM
+    Author     : chameera
+*/
+
+/*
+ * Content Wrapper - contains the main content
+ * ```.right-side has been deprecated as of v2.0.0 in favor of .content-wrapper  ```
+ */
+.content-wrapper,
+.right-side,
+.main-footer {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  margin-left: 0px; 
+  z-index: 820;
+}
+
+.wizard-content{
+    margin-top: 1em;
+}
+
+    
+#wizard-header a.btn.btn-primary.btn-lg{
+        padding: 10px 0px;
+    }
+    
+    .prevbtnalign{
+        float: left;
+    }
+ 
+    .float-left{
+        float: left;
+    }
+    
+    .float-right{
+        float: right;
+    }
+    
+    .wizard-button-middle{
+        /*float: left;
+        margin-left: 7%;*/
+        float: left; 
+        display: inline-block; 
+        padding-right: 6px;
+    }
+    
+    .wizard-button-float-right{
+        float: right; 
+        display: inline-block;
+    }
+	@media(min-width:1200px){
+	#wizard-header a.btn.btn-primary.btn-lg{
+	width: 24.8%;
+	}
+	}
+	@media(min-width:992px)and (max-width:1199px){
+	#wizard-header a.btn.btn-primary.btn-lg{
+	width: 24.7%;
+	}
+	}
+    @media(min-width:768px)and (max-width:991px){
+	#wizard-header a.btn.btn-primary.btn-lg{
+	width: 24.7%;
+	}
+	#wizard-header a{
+	 font-size: 1em;
+	 }
+	 #wizard-header a:after{
+	  height: 40px!important;
+	  width: 40px!important;
+	 }
+	}
+	@media(min-width:481px)and (max-width:767px){
+	#wizard-header a.btn.btn-primary.btn-lg{
+	width:100%;
+	}
+	}
+	@media(min-width:321px)and (max-width:480px){
+	#wizard-header a.btn.btn-primary.btn-lg{
+	width:100%;
+	}
+	}
+	@media(max-width:320px){
+	#wizard-header a.btn.btn-primary.btn-lg{
+	width:100%;
+	}
+	}
+	#wizard-header a:after{
+	background: rgba(0, 0, 0, 0) linear-gradient(135deg, #3c8dbc, #3c8dbc) repeat scroll 0 0;
+    border-radius: 0 5px 0 50px;
+    box-shadow: 3px -2px 0 2px rgba(236, 240, 245, 0.9), 3px -3px 0 2px rgba(255, 255, 255, 0.1);
+    content: "";
+    height: 44px;
+    position: absolute;
+    right: -23px;
+    top: 0;
+    transform: scale(0.707) rotate(45deg);
+    width: 44px;
+    z-index: 1;
+	}
+	#wizard-header a{
+    color: white;
+    display: block;
+    float: left;
+    outline: medium none;
+    padding: 0 10px 0 60px;
+    position: relative;
+    text-decoration: none;
+	}
+	#wizard-header a:first-child{
+	background:#3c8dbc;
+	}
+	#wizard-header a:last-child:after {
+    background:none;
+    border: 0 none;
+    box-shadow: none;
+}
+#wizard-header a:first-child:after{
+ background:linear-gradient(135deg, #3c8dbc, #3c8dbc) repeat 0 0;
+ }
+ #wizard-header a:nth-child(2):after{
+/* background:linear-gradient(135deg, #286090, #286090) repeat 0 0;*/
+ }
+ #wizard-header a:nth-child(3):after{
+ background:linear-gradient(135deg, #3c8dbc, #3c8dbc) repeat 0 0;
+ }
+ #wizard-header a.second:hover:after{
+/* background:linear-gradient(135deg, #367fa9, #367fa9) repeat 0 0;*/
+ }
+  #wizard-header a.third:hover:after{
+/* background:linear-gradient(135deg, #367fa9, #367fa9) repeat 0 0;*/
+ }
+ #wizard-header a.active{
+ background:#286090;
+ }
+ #wizard-header a.active:after{
+  background:#286090;
+ }
+ #wizard-header a:hover,#wizard-header a:hover:after{
+ background:#286090;
+ }
+ #wizard-header a.disabled:after {
+    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #73A3CD, #73A3CD) repeat 0 0;
+ }
+  #wizard-header a.disabled{
+ background:#73A3CD;
+ opacity:1;
+ border-color:#73A3CD;  
+  }
+  #wizard-header a.fourth:after{
+      background: none;
+  }

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.error-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-decoration: underline;
+}
+.row.middle-wrapper {
+    text-align: center;
+    padding-top: 50px;
+}
+.middle-error-description {
+    font-size: 80px;
+    line-height: 84px;
+}
+.row.last-wrapper {
+    padding-top: 30px;
+    text-align: center;
+}
+.row.last-wrapper button {
+    padding: 13px 30px;
+    min-width: 150px;
+	background-color: #2c993e;
+	border-color: #2c993e;
+}
+.row.last-wrapper button {
+    padding: 13px 30px;
+    min-width: 150px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+}	
+.error-button-left, .error-button-right {
+    padding-top: 30px;
+}
+.last-description {
+    font-size: 22px;
+    line-height: 26px;
+}
+.bottom-navigation {
+    padding-top: 30px;
+}
+.bottom-navigation .nav.navbar-nav li a {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.row.middle-wrapper a {
+    color: #005caa;
+}
+.row.topwrapper {
+    padding-top: 50px;
+}
+.error-button-middle h2 a {
+    background-color: #2c993e;
+    border-color: #2c993e;
+}
+.row.last-wrapper button:hover, .error-button-middle a:hover {
+    background-color: #005caa;
+    border-color: #005caa;
+}
+.error-button-middle {
+    padding-top: 10px;
+	color: #2c993e;
+}
+.middle-error-sub-description1 span {
+    color: #2c993e;
+}
+.bottom-navigation .nav.navbar-nav li a:hover {
+    color: #005caa;
+}
+.error-button-middle h2 a {
+    font-size: 25px;
+}
+.error-button-middle h2 a i {
+    font-size: 25px;
+}
+/*body {
+    background-image: url('/img/404error-bg.png');
+    background-size: cover;
+    background-position: center center;
+}*/
+.bottom-navigation .navbar.navbar-default {
+    background-color: rgba(44, 153, 62, 0.5);
+    border-color: rgba(44, 153, 62, 0.5);
+}
